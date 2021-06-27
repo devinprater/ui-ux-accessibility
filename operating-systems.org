@@ -1,0 +1,32 @@
+* Operating System Accessibility
+The first guideline is to communicate with users. The user will
+generally know what they would like rather than what wouldn't help or
+even hinder their experience. Some users may have different ideas of
+what is "accessible" versus other users. In cases like this, you'll
+either need to choose between the two ideas, or give the users a
+choice between the two (preferable). When it comes to accessibility,
+choice is never a bad thing. Your users will thank you for giving them
+something that makes their own experience enjoyable, productive, or both.
+** Totally Blind Users
+This section will concern users who have either only light perception
+or cannot see anything at all. People who have limited vision will be
+addressed in another section.
+
+*** Input and Output
+A blind person sends input to the operating system through a keyboard.
+Input with a Touchpad or touchscreen is possible, but requires that
+the screen reader, accessibility API's, and touchpad or touchscreen
+driver communicate with each other to make this possible. For now,
+Apple's Mac line of computers are the only computers with support for
+using the screen reader with a touchpad. Windows and ChromeOS,
+however, support using the screen reader with a touchscreen.
+
+Since a blind person cannot see the screen, output is provided by a
+[[https://en.wikipedia.org/wiki/Screen_reader][Screen reader]], which speaks using a software or hardware [[https://en.wikipedia.org/wiki/Speech_synthesis][speech
+synthesizer]]. Sound effects also help the blind user by giving cues
+that are often much faster, and more distinct, than speech. These
+sound effects, called audio icons or earcons, can be used to signify a
+change in application state, an error, an animation, or invalid input.
+More general sound effects, like "low battery" notifications, startup
+sounds, and shutdown sounds, are also very valuable.
+

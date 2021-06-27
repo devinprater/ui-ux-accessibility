@@ -1,1 +1,26 @@
 * Desktop Environment accessibility
+The first guideline is to communicate with users. The user will
+generally know what they would like rather than what wouldn't help or
+even hinder their experience. Some users may have different ideas of
+what is "accessible" versus other users. In cases like this, you'll
+either need to choose between the two ideas, or give the users a
+choice between the two (preferable). When it comes to accessibility,
+choice is never a bad thing. Your users will thank you for giving them
+something that makes their own experience enjoyable, productive, or both.
+
+** Total Blindness
+This section will concern users who have either only light perception
+or cannot see anything at all. People who have limited vision will be
+addressed in another section.
+
+*** Visual cues and messaging
+Everything visual must have an audible or haptic representation if it
+is meaningful. For example, each pixel on the screen does not need to be
+described in detail, but an important animation, or one that is
+appealing to sighted users, should be made known to the blind user.
+*** Speech, sounds, and both
+Some users enjoy hearing sounds for things like animations, progress
+bars and the completion of them, and error messages. Other users like
+having these things spoken using their screen reader. Others still
+don't want to hear these things at all unless they prompt for the
+information.

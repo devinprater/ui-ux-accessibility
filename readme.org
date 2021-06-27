@@ -8,6 +8,7 @@ frontend experience.
 
 ** Contents
 
+- [[file:operating-systems.org][Operating Systems]]
 - [[./desktop-environments.org][Desktop Environments]]
 
 * Contributing and Contacting
