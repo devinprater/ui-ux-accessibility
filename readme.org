@@ -9,3 +9,19 @@ frontend experience.
 ** Contents
 
 - [[./desktop-environments.org][Desktop Environments]]
+
+* Contributing and Contacting
+This repository will not reach its full potential without
+contributions from other people with disabilites, programmers, and
+other Invested people. So, you can either fork the repository, make
+changes, and send pull requests, ask to be added as a contributor (if
+you plan on contributing heavily), or send requested changes via Email
+or other communication channels. Just please send the changes through
+a channel that supports long, multi-line messages.
+
+My contact info is below:
+
+- Email :: r.d.t.prater@gmail.com
+- Twitter :: @devinprater
+- Mastodon :: devinprater@dragonscave.space
+
