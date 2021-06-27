@@ -24,3 +24,17 @@ bars and the completion of them, and error messages. Other users like
 having these things spoken using their screen reader. Others still
 don't want to hear these things at all unless they prompt for the
 information.
+*** Speech Input
+It can be tempting to believe that speech input is perfect for blind
+people, since it may be hard for some to find keys on the keyboard, or
+the misunderstanding between speech input and output. Speech input
+(speech recognition) is a great way to quickly enter a small amount of
+text. Indeed, mobile phone users have grown to prefer using this over
+typing on a glass screen, unsurprisingly. Blind people overwhelmingly
+use Siri and Dictation to get things done.
+
+On a computer, however, this isn't necessary for most. Many blind people are
+taught how to type using the [[https://en.wikipedia.org/wiki/Touch_typing][Touch Typing method]] of learning to type,
+so know where the keys are. Although, some users who are learning to
+type may prefer this.
+

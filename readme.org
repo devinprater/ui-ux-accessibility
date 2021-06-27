@@ -6,10 +6,14 @@ determining the accessibility of an operating system desktop or
 "shell," programs running atop a desktop, web pages, or other
 frontend experience.
 
-** Contents
+* in progress Contents
 
+- BIOS and UEFI
 - [[file:operating-systems.org][Operating Systems]]
+- User Interface Toolkits
 - [[./desktop-environments.org][Desktop Environments]]
+- Applications
+- web pages
 
 * Contributing and Contacting
 This repository will not reach its full potential without
