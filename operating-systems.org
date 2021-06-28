@@ -1,5 +1,9 @@
 * Operating System Accessibility
-The first guideline is to communicate with users. The user will
+An operating system, here, is the low-level programs, utilities, and
+libraries that a user may not interact with directly, but which
+facilitates interaction with a desktop environment.
+
+The primary guideline is to communicate with users. The user will
 generally know what they would like rather than what wouldn't help or
 even hinder their experience. Some users may have different ideas of
 what is "accessible" versus other users. In cases like this, you'll
@@ -29,4 +33,23 @@ sound effects, called audio icons or earcons, can be used to signify a
 change in application state, an error, an animation, or invalid input.
 More general sound effects, like "low battery" notifications, startup
 sounds, and shutdown sounds, are also very valuable.
+
+*** Speech Synthesis
+Speech synthesis can be used for more than just a screen reader. It
+can also, for example, help those who cannot speak to communicate, or
+help dyslexic people read. An operating system should come with at
+Zleast one speech synthesis engine.
+
+The quality of the voice provided by the speech synthesis engine, the
+frontend, matters. A boring voice will reduce productivity or
+enjoyment, just like a flat, unchanging, gray font will make content
+seem boring and lifeless. The voice should have good pronunciation
+ability, or allow the user to correct pronunciation.
+
+The speech engine, the backend, should be as responsive as possible.
+The engine must provide the ability to be stopped and restarted at any
+point, so that the screen reader can move from one item, or line, or
+character, to another at the user's request. The engine must provide a
+speech queue, so that messages can be read sequentially, such as in
+terminal output.
 
