@@ -5,7 +5,8 @@ information, and switch between open applications. These are the parts
 of the computing experience that automatically appears after the
 system is first started, and before any user applications are launched.
 
-The primary guideline is to communicate with users. The user will
+** Prime Directive
+The Prime Directive is to communicate with users. The user will
 generally know what they would like rather than what wouldn't help or
 even hinder their experience. Some users may have different ideas of
 what is "accessible" versus other users. In cases like this, you'll

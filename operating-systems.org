@@ -2,8 +2,8 @@
 An operating system, here, is the low-level programs, utilities, and
 libraries that a user may not interact with directly, but which
 facilitates interaction with a desktop environment.
-
-The primary guideline is to communicate with users. The user will
+** Prime Directive
+The prime directive is to communicate with users. The user will
 generally know what they would like rather than what wouldn't help or
 even hinder their experience. Some users may have different ideas of
 what is "accessible" versus other users. In cases like this, you'll
@@ -85,4 +85,10 @@ Screen readers use different attributes of an item, hereafter called a
 - State :: Relevant observations about the widget. For example,
   "checked," "unchecked," "pressed," "has text" (inside edit field),
   "unavailable" or "dimmed."
+
+*** No News is Good News
+Screen reader users will have to hear about your widgets hundreds of
+times per day. So, while it is better to be more verbose than to not
+give enough information, there must be a balance that is achieved by
+practice. Follow the [[*Prime Directive][Prime Directive]], and you'll do fine.
 
