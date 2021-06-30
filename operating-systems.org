@@ -16,6 +16,22 @@ This section will concern users who have either only light perception
 or cannot see anything at all. People who have limited vision will be
 addressed in another section.
 
+*** During Install
+A screen reader must be available during install. Otherwise, your
+operating system will not be used by blind people if they must switch
+to it from another. All messages about installation progress must be
+spoken, and widgets must be labeled.
+
+If ths user must enable the screen reader during install or
+beforehand, the steps to do so must be simple, able to be performed
+with the keyboard, and documented in an easily-accessible location.
+
+*** After Install
+The Out-of-box experience, setup screens, or any other "getting
+started" steps after the system is installed must be accessible.
+Creating an account, adding online accounts, and setting user
+information must be accessible in order to facilitate a good user
+experience. If not, the user will likely start looking for something else.
 *** Input and Output
 A blind person sends input to the operating system through a keyboard.
 Input with a Touchpad or touchscreen is possible, but requires that
