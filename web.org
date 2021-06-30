@@ -41,9 +41,8 @@ next.
 *** Labeling Widgets
 
 Within form controls, like buttons, edit fields, check boxes, and
-radio buttons, it is important to give them textual labels. I believe
-you do this with the label attribute. Screen readers will read this to
-the user.
+radio buttons, it is important to give them textual labels using the
+label tag. Screen readers will read this to the user.
 
 Be sure to label widgets simply and briefly. It's better to label a
 button "close" than it is to label it "A green close button on a blue
