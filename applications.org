@@ -1,0 +1,27 @@
+* Application Accessibility
+An application, here, is a program that is meant for the user to
+launch and use. Applications can be sandboxed, or have access to more
+system resources. They can be elevated to administrator status, or in
+user space.
+** Prime Directive
+The prime directive is to communicate with users. The user will
+generally know what they would like rather than what wouldn't help or
+even hinder their experience. Some users may have different ideas of
+what is "accessible" versus other users. In cases like this, you'll
+either need to choose between the two ideas, or give the users a
+choice between the two (preferable). When it comes to accessibility,
+choice is never a bad thing. Your users will thank you for giving them
+something that makes their own experience enjoyable, productive, or
+both.
+** Total Blindness
+This section will concern users who have either only light perception
+or cannot see anything at all. People who have limited vision will be
+addressed in another section.
+*** Widget Labeling
+Always label your widgets with text. If there is an accessibility
+label you can use, you may use that if the widget shouldn't appear as
+text, for example if it's supposed to be an image. Use simple, brief
+label names. For example, "close" is better than "a green close button
+on a blue background." Do not include the widget's roll in the label,
+as the operating system should provide that to the screen reader,
+which will provide that to the user.

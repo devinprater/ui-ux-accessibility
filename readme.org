@@ -8,13 +8,12 @@ frontend experience.
 
 * in progress Contents
 
-- BIOS and UEFI
-- [[file:operating-systems.org][Operating Systems]]
-- User Interface Toolkits
+- [ ] BIOS and UEFI
+- [[./operating-systems.org][Operating Systems]]
 - [[./desktop-environments.org][Desktop Environments]]
-- Applications
-- web pages
-
+- [[./applications.org][Applications]]
+- [[./web.org][Webpages]]
+- [[./documents.org][Documents]]
 * Contributing and Contacting
 This repository will not reach its full potential without
 contributions from other people with disabilites, programmers, and

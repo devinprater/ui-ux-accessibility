@@ -38,3 +38,10 @@ an accessibility label, that can be done if the widget is only
 supposed to appear as an image to sighted users. Labels should be
 brief, like "close", not overly verbose, like "green close button on a
 blue background."
+*** Keyboard Focus
+A blind person usually only uses the keyboard to navigate. This means
+that the keyboard focus must never be trapped anywhere without a
+clearly communicated exit to the trap. For example, if a user is
+assigning a keyboard commands to an action, the user must be able to
+escape that, rather than having Escape captured. This can be carried
+over to other interaction methods, like touch.

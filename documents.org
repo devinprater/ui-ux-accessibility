@@ -1,0 +1,42 @@
+* Document Accessibility
+Documents, here, are any portable file that is to be read with a word
+processor or rich text editor. Documents can also be in plain text, or
+use Markdown or other markup languages. Use your best judgment for
+including these guidelines, as some don't apply to some document types.
+** Prime Directive
+The prime directive is to communicate with users. The user will
+generally know what they would like rather than what wouldn't help or
+even hinder their experience. Some users may have different ideas of
+what is "accessible" versus other users. In cases like this, you'll
+either need to choose between the two ideas, or give the users a
+choice between the two (preferable). When it comes to accessibility,
+choice is never a bad thing. Your users will thank you for giving them
+something that makes their own experience enjoyable, productive, or both.
+** Totally Blind Users
+This section will concern users who have either only light perception
+or cannot see anything at all. People who have limited vision will be
+addressed in another section.
+*** NO PDF's
+PDF's are very hard to make completely accessible. Many are just
+images of the documents. Others that /are/ text have issues like words
+running together without any spaces in between them, images not
+labeled, or different results based on the PDF viewer. Please use more
+accessible formats, like Open Document Format, EPUB, Microsoft Word,
+Rich Text format. You can even use plain text if you don't have any
+rich content like headings, links, tables, and so on, and your
+document is short.
+*** Use Headings
+If you are writing a large document, use headings to mark sections. Be
+sure to use the heading style, and not just bold the text of the
+section name and enlarge the font. This allows blind users to navigate
+from heading to heading in order to review the document much more
+quickly.
+*** Label Images
+Always label images that you put into your document. You can do this
+by adding a "caption" or "description" to the image during or after
+you put it into the document.
+*** Use table headers
+Tables can have headers, either column headers or row headers. This
+allows the word processor, usually, to tell the screen reader the
+title of the row or column that they're in, as they traverse the
+table.
