@@ -1,8 +1,11 @@
 * Operating System Accessibility
-An operating system, here, is the low-level programs, toolkits, utilities, and
-libraries that a user may not interact with directly, but which
-facilitates interaction with a desktop environment.
+
+An operating system, here, is the low-level programs, toolkits,
+utilities, and libraries that a user may not interact with directly,
+but which facilitates interaction with a desktop environment.
+
 ** Prime Directive
+
 The prime directive is to communicate with users. The user will
 generally know what they would like rather than what wouldn't help or
 even hinder their experience. Some users may have different ideas of
@@ -10,13 +13,17 @@ what is "accessible" versus other users. In cases like this, you'll
 either need to choose between the two ideas, or give the users a
 choice between the two (preferable). When it comes to accessibility,
 choice is never a bad thing. Your users will thank you for giving them
-something that makes their own experience enjoyable, productive, or both.
+something that makes their own experience enjoyable, productive, or
+both.
+
 ** Totally Blind Users
+
 This section will concern users who have either only light perception
 or cannot see anything at all. People who have limited vision will be
 addressed in another section.
 
 *** During Install
+
 A screen reader must be available during install. Otherwise, your
 operating system will not be used by blind people if they must switch
 to it from another. All messages about installation progress must be
@@ -27,22 +34,28 @@ beforehand, the steps to do so must be simple, able to be performed
 with the keyboard, and documented in an easily-accessible location.
 
 *** After Install
-The Out-of-box experience, setup screens, or any other "getting
-started" steps after the system is installed must be accessible.
-Creating an account, adding online accounts, and setting user
-information must be accessible in order to facilitate a good user
-experience. If not, the user will likely start looking for something else.
+
+The out-of-box experience, which constitutes setup screens and all
+"getting started" steps after the system is installed, must be
+accessible.  Creating an account, adding online accounts, and setting
+user information must be accessible in order to facilitate a good user
+experience. If not, the user will likely start looking for something
+else.
+
 *** Input and Output
+
 A blind person sends input to the operating system through a keyboard.
-Input with a Touchpad or touchscreen is possible, but requires that
-the screen reader, accessibility API's, and touchpad or touchscreen
+Input with a touchpad or touchscreen is possible, but requires that
+the screen reader, accessibility APIs, and touchpad or touchscreen
 driver communicate with each other to make this possible. For now,
-Apple's Mac line of computers are the only computers with support for
-using the screen reader with a touchpad. Windows and ChromeOS,
-however, support using the screen reader with a touchscreen.
+only Apple Macs support using the screen reader with a touchpad.
+Windows and ChromeOS, however, support using the screen reader with a
+touchscreen.
 
 Since a blind person cannot see the screen, output is provided by a
-[[https://en.wikipedia.org/wiki/Screen_reader][Screen reader]], which speaks using a software or hardware [[https://en.wikipedia.org/wiki/Speech_synthesis][speech
+[[https://en.wikipedia.org/wiki/Screen_reader][Screen reader]], which
+speaks using a software or hardware
+[[https://en.wikipedia.org/wiki/Speech_synthesis][speech
 synthesizer]]. Sound effects also help the blind user by giving cues
 that are often much faster, and more distinct, than speech. These
 sound effects, called audio icons or earcons, can be used to signify a
@@ -51,10 +64,11 @@ More general sound effects, like "low battery" notifications, startup
 sounds, and shutdown sounds, are also very valuable.
 
 *** Speech Synthesis
+
 Speech synthesis can be used for more than just a screen reader. It
 can also, for example, help those who cannot speak to communicate, or
 help dyslexic people read. An operating system should come with at
-Zleast one speech synthesis engine.
+least one speech synthesis engine.
 
 The quality of the voice provided by the speech synthesis engine, the
 frontend, matters. A boring voice will reduce productivity or
@@ -70,6 +84,7 @@ speech queue, so that messages can be read sequentially, such as in
 terminal output.
 
 *** Speech Input
+
 It can be tempting to believe that speech input is perfect for blind
 people, since it may be hard for some to find keys on the keyboard, or
 the misunderstanding between speech input and output. Speech input
@@ -78,40 +93,47 @@ text. Indeed, mobile phone users have grown to prefer using this over
 typing on a glass screen, unsurprisingly. Blind people overwhelmingly
 use Siri and Dictation to get things done.
 
-On a computer, however, this isn't necessary for most. Many blind people are
-taught how to type using the [[https://en.wikipedia.org/wiki/Touch_typing][Touch Typing method]] of learning to type,
-so know where the keys are. Although, some users who are learning to
-type may prefer this.
+On a computer, however, this isn't necessary for most. Many blind
+people are taught [[https://en.wikipedia.org/wiki/Touch_typing][touch
+typing]], so they know where the keys are. Speech input should still
+be provided for users who are just beginning to learn to type.
 
 *** Sounds and Latency
-Sound support must, at least, support two channels of output at
-16-bit quality, with a latency of 40 Milliseconds or lower. Sounds
-must also be able to play simultaneously, so that speech and sounds
-can play at the same time. At most,
-surround sound and virtual surround sound, through [[https://en.wikipedia.org/wiki/Head-related_transfer_function][HRTF]], provides a
-great experience, while latency should be as low as possible, to
-provide a fast, snappy-feeling experience.
-*** labels, rolls, and states
+
+Sound support must, at least, support two channels of output at 16-bit
+quality, with a latency of 40 milliseconds or lower. Sounds must also
+be able to play simultaneously, so that speech and sounds can play at
+the same time. At most, surround sound and virtual surround sound,
+through
+[[https://en.wikipedia.org/wiki/Head-related_transfer_function][HRTF]],
+provides a great experience, while latency should be as low as
+possible, to provide a fast, snappy-feeling experience.
+
+*** Labels, Roles, and States
+
 Screen readers use different attributes of an item, hereafter called a
 /widget/, to describe what's on the screen. These attributes are:
 
-- Label :: The item's name. For example, "ok," "name," or "choose one."
-- Roll :: What an item is, or its purpose. For example, "button,"
-  "edit field," "check box."
-- State :: Relevant observations about the widget. For example,
-  "checked," "unchecked," "pressed," "has text" (inside edit field),
-  "unavailable" or "dimmed."
+- Label :: The item's name. For example, "OK", "Name", and "Choose
+  one".
+- Role :: What an item is, or its purpose. For example, "button",
+  "edit field", and "check box".
+- State :: Relevant, dynamic observations about the widget. For
+  example, "checked", "unchecked", "pressed", "has text" (for edit
+  fields), "unavailable", and "dimmed".
 
 *** Toolkits and Text
-User Interface toolkits must have a way for programmers to add text,
+
+User interface toolkits must have a way for programmers to add text,
 or accessibility information, to their widgets. The toolkit should
-also expose state and roll information as well.
+also expose state and role information.
+
 *** The accessibility stack
+
 The accessibility of the operating system depends on what the system
 gives to the screen reader. It does this through the accessibility
-stack. Your stack must be robust enough to allow programs to give
+stack. The stack must be robust enough to allow programs to give
 information about custom widgets, and rich enough to allow screen
 readers to get information about text formatting, image descriptions
 (if the application provides them), or usage hints in an unfamiliar
 application.
-

@@ -1,8 +1,11 @@
 * Website Accessibility
+
 A website, here, is a collection of pages, made of HTML, CSS, and
 JavaScript, presented usually over the Internet to users' web
 browsers.
+
 ** Prime Directive
+
 The prime directive is to communicate with users. The user will
 generally know what they would like rather than what wouldn't help or
 even hinder their experience. Some users may have different ideas of
@@ -10,16 +13,23 @@ what is "accessible" versus other users. In cases like this, you'll
 either need to choose between the two ideas, or give the users a
 choice between the two (preferable). When it comes to accessibility,
 choice is never a bad thing. Your users will thank you for giving them
-something that makes their own experience enjoyable, productive, or both.
+something that makes their own experience enjoyable, productive, or
+both.
+
 ** Totally Blind Users
+
 This section will concern users who have either only light perception
 or cannot see anything at all. People who have limited vision will be
 addressed in another section.
+
 *** HTML
+
 Use HTML for content, not layout or looks. Tables should only be for
 the display of data, not for layout of regular information. If you
 want information to be in columns, do that using CSS.
+
 *** Use Headings and Landmarks
+
 Headings are for sectioning out your page. Try to only have one
 heading at level one, as the title of the page. Landmarks are for more
 screen reader specific navigation. A main landmark denotes the main
@@ -27,7 +37,9 @@ section of the page. Landmarks are for dividing your page into regions
 for faster navigation. They can be very helpful in news sites, where
 the article landmark allows the user to move from one article to the
 next.
+
 *** Labeling Widgets
+
 Within form controls, like buttons, edit fields, check boxes, and
 radio buttons, it is important to give them textual labels. I believe
 you do this with the label attribute. Screen readers will read this to
@@ -39,22 +51,26 @@ background." Do not add the widget's roll to the label either, as the
 browser will know what kind of widget it is, and will communicate that
 to the screen reader.
 
-*** HTML as much as Possible
+*** Don't Use ARIA
+
 You may have heard of ARIA, which allows a web developer to control a
-lot of what a screen reader says and does on a site. However, with
-this, you must hand-code everything, and if something breaks, you have
-to figure out the edge case and fix it in your custom code. Therefore,
-it's a lot easier to just do as much as you can with simple, pure
-HTML as possible. That way, browsers know what to do, and screen
-readers know what to expect.
+lot of what a screen reader says and does on a site. However,
+configuring ARIA can be brittle and painful, requiring a lot of manual
+intervention when something breaks.  It is much easier to instead use
+simple, pure HTML, which screen readers and browsers are already good
+at understanding.
+
 *** Label Images
-Images must contain an Alt attribute with a description of the image.
-It doesn't matter if your descriptions are exquisitely vivid and
-detailed; what matters is that you get the point across. "An orange
-kitten curled up on a windowsill in a sunbeam" is good enough for most
-cases.
+
+Images must contain an "alt" attribute with a description of the
+image.  It doesn't matter if your descriptions are exquisitely vivid
+and detailed; what matters is that you get the point across. For
+example, "An orange kitten curled up on a windowsill in a sunbeam" is
+good enough for most cases.
+
 *** Language Changes
+
 If there is a widget, like a paragraph, in a different languages, use
-the Lang attribute to tell the screen reader which language to speak
+the "lang" attribute to tell the screen reader which language to speak
 in. This helps in language-learning sites, or even social networks
 which allow multi-lingual posts.
