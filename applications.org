@@ -1,4 +1,4 @@
-* Application Accessibility
+#+title: Application Accessibility
 
 An application, here, is a program that is meant for the user to
 launch and use. Applications can be sandboxed, or have access to more
@@ -32,3 +32,6 @@ label names. For example, "close" is better than "a green close button
 on a blue background." Do not include the widget's role in the label,
 as the operating system should provide that to the screen reader,
 which will provide that to the user.
+
+* Resources
+
