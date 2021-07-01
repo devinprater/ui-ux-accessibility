@@ -1,4 +1,4 @@
-* Desktop Environment Accessibility
+#+title: Desktop Environment Accessibility
 
 A desktop environment is the top-level interface that users interact
 with to launch applications, configure their system, check system
@@ -55,3 +55,5 @@ clearly communicated exit to the trap. For example, if a user is
 assigning a keyboard commands to an action, the user must be able to
 escape that, rather than having Escape captured. This can be carried
 over to other interaction methods, like touch.
+
+* Resources

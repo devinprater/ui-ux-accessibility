@@ -1,4 +1,4 @@
-* Website Accessibility
+#+title: Website Accessibility
 
 A website, here, is a collection of pages, made of HTML, CSS, and
 JavaScript, presented usually over the Internet to users' web
@@ -83,3 +83,14 @@ If there is a widget, like a paragraph, in a different languages, use
 the "lang" attribute to tell the screen reader which language to speak
 in. This helps in language-learning sites, or even social networks
 which allow multi-lingual posts.
+
+* Resources
+
+- [[https://adrianroselli.com/2021/06/using-css-to-enforce-accessibility.html][Using
+  CSS to enforce Accessibility]]
+- [[https://webaim.org/projects/screenreadersurvey8/][WebAIM Screen
+  reader survey]]
+- [[https://levelup.gitconnected.com/wcag-2-1-simplified-how-to-make-your-website-accessible-1cfadd03d20d][WCAG 2.1, Simplified: How to Make Your Website Accessible]]
+- [[https://www.w3.org/WAI/people-use-web/user-stories/][Web
+  Accessibility Initiative: Story of web users]]
+- [[https://wave.webaim.org][WebAIm Accessibility checker]]

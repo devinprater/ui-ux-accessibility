@@ -1,4 +1,4 @@
-* Document Accessibility
+#+title: Document Accessibility
 
 Documents, here, are any portable file that is to be read with a word
 processor or rich text editor. Documents can also be in plain text, or
@@ -60,3 +60,5 @@ you put it into the document.
 Tables can have headers, either for columns or for rows. This usually
 allows the word processor to tell the screen reader the title of the
 row or column it's in.
+
+* Resources

@@ -1,4 +1,4 @@
-* BIOS and UEFI
+#+title: BIOS and UEFI
 
 BIOS and UEFI are the lowest-level parts of software on the computer,
 the firmware that handles CPU features and operating system boot. Even
@@ -28,3 +28,5 @@ All input must be able to be performed on the keyboard. Output must be
 optionally spoken if a pair of headphones are inserted, or another
 documented and easily found method. If a braille device is connected,
 output must be sent to that device.
+
+* Resources

@@ -1,4 +1,4 @@
-* Operating System Accessibility
+#+title: Operating System Accessibility
 
 An operating system, here, is the low-level programs, toolkits,
 utilities, and libraries that a user may not interact with directly,
@@ -137,3 +137,5 @@ information about custom widgets, and rich enough to allow screen
 readers to get information about text formatting, image descriptions
 (if the application provides them), or usage hints in an unfamiliar
 application.
+
+* Resources
