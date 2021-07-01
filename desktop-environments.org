@@ -1,11 +1,13 @@
-* Desktop Environment accessibility
+* Desktop Environment Accessibility
+
 A desktop environment is the top-level interface that users interact
 with to launch applications, configure their system, check system
 information, and switch between open applications. These are the parts
-of the computing experience that automatically appears after the
-system is first started, and before any user applications are launched.
+of the computing experience that automatically appear after the system
+is first started, and before any user applications are launched.
 
 ** Prime Directive
+
 The Prime Directive is to communicate with users. The user will
 generally know what they would like rather than what wouldn't help or
 even hinder their experience. Some users may have different ideas of
@@ -13,19 +15,24 @@ what is "accessible" versus other users. In cases like this, you'll
 either need to choose between the two ideas, or give the users a
 choice between the two (preferable). When it comes to accessibility,
 choice is never a bad thing. Your users will thank you for giving them
-something that makes their own experience enjoyable, productive, or both.
+something that makes their own experience enjoyable, productive, or
+both.
 
 ** Total Blindness
+
 This section will concern users who have either only light perception
 or cannot see anything at all. People who have limited vision will be
 addressed in another section.
 
-*** Visual cues and messaging
+*** Visual Cues and Messaging
+
 Everything visual must have an audible or haptic representation if it
-is meaningful. For example, each pixel on the screen does not need to be
-described in detail, but an important animation, or one that is
+is meaningful. For example, each pixel on the screen does not need to
+be described in detail, but an important animation, or one that is
 appealing to sighted users, should be made known to the blind user.
-*** Speech, sounds, and both
+
+*** Speech, Sounds, and Both
+
 Some users enjoy hearing sounds for things like animations, progress
 bars and the completion of them, and error messages. Other users like
 having these things spoken using their screen reader. Others still
@@ -33,12 +40,15 @@ don't want to hear these things at all unless they prompt for the
 information.
 
 *** Widget labeling
+
 Every widget must be labeled with text. If there is a way to give only
 an accessibility label, that can be done if the widget is only
 supposed to appear as an image to sighted users. Labels should be
 brief, like "close", not overly verbose, like "green close button on a
 blue background."
+
 *** Keyboard Focus
+
 A blind person usually only uses the keyboard to navigate. This means
 that the keyboard focus must never be trapped anywhere without a
 clearly communicated exit to the trap. For example, if a user is
