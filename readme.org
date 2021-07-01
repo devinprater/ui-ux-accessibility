@@ -1,4 +1,4 @@
-# UI/UX Accessibility
+#+title: UI/UX Accessibility
 
 This repository is for the documenting of UI and UX accessibility
 patterns that can be used by developers, testers, and auditors for
@@ -6,7 +6,7 @@ determining the accessibility of an operating system desktop or
 "shell", programs running atop a desktop, web pages, or other frontend
 experience.
 
-* Contents [in progress]
+* Contents
 
 - [[./bios.org][BIOS and UEFI]]
 - [[./operating-systems.org][Operating Systems]]
@@ -18,7 +18,7 @@ experience.
 * Contributing and Contacting
 
 This repository will not reach its full potential without
-contributions from other people with disabilites, programmers, and
+contributions from other people with disabilities, programmers, and
 other invested people. So, you can either fork the repository, make
 changes, and send pull requests, ask to be added as a contributor (if
 you plan on contributing heavily), or send requested changes via
