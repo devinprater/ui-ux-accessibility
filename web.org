@@ -31,12 +31,22 @@ want information to be in columns, do that using CSS.
 *** Use Headings and Landmarks
 
 Headings are for sectioning out your page. Try to only have one
-heading at level one, as the title of the page. Landmarks are for more
-screen reader specific navigation. A main landmark denotes the main
-section of the page. Landmarks are for dividing your page into regions
-for faster navigation. They can be very helpful in news sites, where
-the article landmark allows the user to move from one article to the
-next.
+heading at level one, as the title of the page, article, or main
+content. This allows blind users who use only headings to find the
+main content of a site more quickly, and for those who use landmarks
+to do the same thing with the Main landmark. Keep in mind, though,
+that many screen readers only allow users to move from landmark to
+landmark, so if you've got a Navigation landmark for your navigation
+bar, then an Aside landmark for some complementary content, it'll take
+more key presses to find the Main landmark than it will the heading at
+level one.
+
+Landmarks are for more screen reader specific navigation. A main
+landmark denotes the main section of the page. Landmarks are for
+dividing your page into regions for faster navigation. They can be
+very helpful in news sites, where the article landmark allows the user
+to move from one article to the next, if the screen reader supports the
+movement from one Article to the next.
 
 *** Labeling Widgets
 
