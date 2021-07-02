@@ -17,6 +17,8 @@ choice is never a bad thing. Your users will thank you for giving them
 something that makes their own experience enjoyable, productive, or
 both.
 
+* Graphical user interfaces
+
 ** Total Blindness
 
 This section will concern users who have either only light perception
@@ -33,5 +35,40 @@ on a blue background." Do not include the widget's role in the label,
 as the operating system should provide that to the screen reader,
 which will provide that to the user.
 
-* Resources
+** Resources
 
+* Command line interfaces
+
+** Total Blindness
+
+This section will concern users who have either only light perception
+or cannot see anything at all. People who have limited vision will be
+addressed in another section.
+
+*** Output presentation
+
+Add an option to output tabular data as comma separated values
+(CSV). Provide an option to send long output to an [[web.org][HTML]] file, with
+headings and other semantic elements where appropriate. Do not use
+box-drawing characters or other ASCII-art.
+
+Describe how the output is structured or provide a way for the user to
+use templates in a configuration file to structure output how they
+want.
+
+*** Progress indication
+
+When a command runs for a long time without outputting anything, print
+status messages. But don't use progress bars, spinning wheels or other
+animations made of ASCII or Unicode characters. Just print a short
+message that makes sense when read aloud. Have the frequency of the
+messages configurable. A good default is 30 seconds.
+
+*** Documentation
+
+Provide an HTML version of all documentation. They are easier to
+navigate and better convertible.
+
+** Resources
+
+- [[https://dl.acm.org/doi/fullHtml/10.1145/3411764.3445544][Accessibility of Command Line Interfaces]]
