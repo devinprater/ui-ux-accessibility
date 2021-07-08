@@ -60,6 +60,8 @@ background." Do not add the widget's roll to the label either, as the
 browser will know what kind of widget it is, and will communicate that
 to the screen reader.
 
+Placeholders should never replace labels in forms.
+
 *** Don't Use ARIA
 
 You may have heard of ARIA, which allows a web developer to control a
@@ -77,12 +79,90 @@ and detailed; what matters is that you get the point across. For
 example, "An orange kitten curled up on a windowsill in a sunbeam" is
 good enough for most cases.
 
+Leave the "alt" empty if your image is just decorative for sighted users and doesn't add any value to the content.
+
+Be careful when you use images inside buttons or links without a text. Don't describe the image here, but which action will be initiated when the user interacts with the element. 
+
+This is also important to make your web accessible for sighted people in poor countries who cannot have a good Internet connection and will have images disabled by default. 
+
+
 *** Language Changes
 
 If there is a widget, like a paragraph, in a different languages, use
 the "lang" attribute to tell the screen reader which language to speak
 in. This helps in language-learning sites, or even social networks
 which allow multi-lingual posts.
+
+** Color-blind Users
+
+This section will concern users who have color-blindness or color vision deficiency and cannot distinguish certain shades of color.
+
+*** Color
+
+Don't rely on color to give important information. Color-blind users may not perceive the difference. Use patterns, icons or text instead. 
+
+If you are giving different color options to the user (for example, when they are buying a T-shirt), include text with the name of each color close so they can know which one they are choosing even if they cannot feel the difference.
+
+Be careful with color combinations.
+
+*** Contrast
+
+Make sure your text is readable and passes the accessibility guidelines for text contrast. These include text color, background color and text size.
+
+Try to avoid using text over background images, since it's harder to have enough contrast. 
+
+Use tools to convert your web or design into grayscale. Can a sighted user still distinguish the text in the whole site?
+
+*** Placeholders
+
+Placeholders doesn't have enough contrast (and if they had, it would be a bad user experience) so avoid them. At least, don't use them to communicate crucial info.
+
+** Keyboard Users
+
+This section will concern users who rely on keyboards to navigate the websites.
+
+*** Outline on focus
+
+Never set outline to 0 or none. If you do that, it will become impossible to navigate your website with a keyboard, since the user will have no idea where they are.
+
+The exception could be if you apply specific styles for an element when it's focused. But it's hard to keep track of every interactive or focusable element in a page. So make sure you only remove the outline for that specific element.
+
+The default style for the outline is not a good option either since it has low contrast and is very thin. Highly recommended setting the width to -at least- 3 pixels.
+
+*** Navigation Order
+
+The order of the focusable elements should be logical and intuitive. Try to follow the visual flow of the page. 
+
+You shouldn't change the default keyboard navigation order, do not use tabindex values of 1 or greater. 
+
+*** Empty links
+
+Links shouldn't behave like buttons.
+
+If you leave a link element without or with an empty "href" attribute, it won't become focusable and keyboard users aren't gonna be able to use them.
+
+*** Skip content
+
+If there is some repetitive or boring section your users may want to skip, provide an internal link to the next one.
+
+
+** General
+
+These may fit in none or more than one of the previous sections.
+
+*** No JavaScript
+
+Some users won't have JavaScript activated. Check if everything makes sense with only HTML and CSS.
+
+If your menu or navbar relies on JavaScript to toggle, leave it open by default so anyone without JS can use it. If there's JavaScript, you can always close it as soon as the page loads.
+
+*** Font size
+
+Use always relative font sizes! Don't set your font size with static values like pixels.
+
+Don't disable zoom on your website so your users can make the text as big or small as they need it.
+
+
 
 * Resources
 
@@ -94,3 +174,5 @@ which allow multi-lingual posts.
 - [[https://www.w3.org/WAI/people-use-web/user-stories/][Web
   Accessibility Initiative: Story of web users]]
 - [[https://wave.webaim.org][WebAIm Accessibility checker]]
+- [[https://webaim.org/resources/contrastchecker/][WebAIm Contrast checker]]
+- [[https://www.udemy.com/course/web-content-accessibility-guidelines-wcag-21-simplified/][(Udemy course) WCAG 2.1 / 2.2 Simplified With Examples by Stefany Newman]]
