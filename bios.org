@@ -25,8 +25,8 @@ addressed in another section.
 *** Input and Output
 
 All input must be able to be performed on the keyboard. Output must be
-optionally spoken if a pair of headphones are inserted, or another
-documented and easily found method. If a braille device is connected,
-output must be sent to that device.
+optionally spoken if a pair of headphones are inserted, or using
+another documented and easily found method. If a braille device is
+connected, output must be sent to that device.
 
 * Resources

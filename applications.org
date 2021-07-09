@@ -35,6 +35,8 @@ on a blue background." Do not include the widget's role in the label,
 as the operating system should provide that to the screen reader,
 which will provide that to the user.
 
+
+
 ** Resources
 
 * Command line interfaces

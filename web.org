@@ -81,14 +81,17 @@ good enough for most cases.
 
 Leave the "alt" empty if your image is just decorative for sighted users and doesn't add any value to the content.
 
-Be careful when you use images inside buttons or links without a text. Don't describe the image here, but which action will be initiated when the user interacts with the element. 
+Be careful when you use images inside buttons or links without text.
+Don't describe the image here, but which action will be initiated when
+the user interacts with the element.
 
-This is also important to make your web accessible for sighted people in poor countries who cannot have a good Internet connection and will have images disabled by default. 
-
+This is also important to make your site accessible for sighted people
+in poor countries who cannot have good Internet connection and will
+have images disabled by default.
 
 *** Language Changes
 
-If there is a widget, like a paragraph, in a different languages, use
+If there is a widget, like a paragraph, in a different language, use
 the "lang" attribute to tell the screen reader which language to speak
 in. This helps in language-learning sites, or even social networks
 which allow multi-lingual posts.
@@ -99,39 +102,59 @@ This section will concern users who have color-blindness or color vision deficie
 
 *** Color
 
-Don't rely on color to give important information. Color-blind users may not perceive the difference. Use patterns, icons or text instead. 
+Don't rely on color to give important information. Color-blind users
+may not perceive the difference. Use patterns, icons or text instead.
 
-If you are giving different color options to the user (for example, when they are buying a T-shirt), include text with the name of each color close so they can know which one they are choosing even if they cannot feel the difference.
+If you give different color options to the user (for example, when
+they are buying a T-shirt), include text with the name of each color
+in the text description so they can know which one they are choosing
+even if they cannot perceive the difference.
 
-Be careful with color combinations.
+Be careful with color combinations. Some combinations may be harder
+for people with low vision to read.
 
 *** Contrast
 
-Make sure your text is readable and passes the accessibility guidelines for text contrast. These include text color, background color and text size.
+Make sure your text is readable and passes the accessibility
+guidelines for text contrast. These include text color, background
+color and text size.
 
 Try to avoid using text over background images, since it's harder to have enough contrast. 
 
-Use tools to convert your web or design into grayscale. Can a sighted user still distinguish the text in the whole site?
+When testing your site, use tools to convert your pages or design into
+grayscale. Can a sighted user still distinguish the text on the whole
+site?
 
 *** Placeholders
 
-Placeholders doesn't have enough contrast (and if they had, it would be a bad user experience) so avoid them. At least, don't use them to communicate crucial info.
+Placeholders don't have enough contrast (and if they had, it would be
+a bad user experience) so avoid them. At least, don't use them to
+communicate crucial info.
 
 ** Keyboard Users
 
-This section will concern users who rely on keyboards to navigate the websites.
+This section will concern users who rely on keyboards to navigate
+websites.
 
 *** Outline on focus
 
-Never set outline to 0 or none. If you do that, it will become impossible to navigate your website with a keyboard, since the user will have no idea where they are.
+Never set the keyboard focus outline to 0 or none. If you do that, it
+will become impossible to navigate your website with a keyboard, since
+the user will have no idea where they are.
 
-The exception could be if you apply specific styles for an element when it's focused. But it's hard to keep track of every interactive or focusable element in a page. So make sure you only remove the outline for that specific element.
+The exception could be if you apply specific styles for an element
+when it's focused. But it's hard to keep track of every interactive or
+focusable element in a page. So make sure you only remove the outline
+for that specific element.
 
-The default style for the outline is not a good option either since it has low contrast and is very thin. Highly recommended setting the width to -at least- 3 pixels.
+The default style for the outline is not a good option either since it
+has low contrast and is very thin. It is highly recommended to set the
+width to -- at least -- 3 pixels.
 
 *** Navigation Order
 
-The order of the focusable elements should be logical and intuitive. Try to follow the visual flow of the page. 
+The order of the focusable elements should be logical and intuitive.
+Try to follow the visual flow of the page.
 
 You shouldn't change the default keyboard navigation order, do not use tabindex values of 1 or greater. 
 
@@ -143,8 +166,8 @@ If you leave a link element without or with an empty "href" attribute, it won't 
 
 *** Skip content
 
-If there is some repetitive or boring section your users may want to skip, provide an internal link to the next one.
-
+If there is some repetitive or boring section your users may want to
+skip, provide an internal link to the next  "interesting" element.
 
 ** General
 
@@ -152,17 +175,20 @@ These may fit in none or more than one of the previous sections.
 
 *** No JavaScript
 
-Some users won't have JavaScript activated. Check if everything makes sense with only HTML and CSS.
+Some users won't have JavaScript activated. Check if everything makes
+sense with only HTML and CSS.
 
-If your menu or navbar relies on JavaScript to toggle, leave it open by default so anyone without JS can use it. If there's JavaScript, you can always close it as soon as the page loads.
+If your menu or navbar relies on JavaScript to toggle, leave it open
+by default so anyone without JS can use it. If there's JavaScript, you
+can always close it as soon as the page loads.
 
 *** Font size
 
-Use always relative font sizes! Don't set your font size with static values like pixels.
+Use always relative font sizes! Don't set your font size with static
+values like pixels.
 
-Don't disable zoom on your website so your users can make the text as big or small as they need it.
-
-
+Don't disable zoom on your website so your users can make the text as
+big or small as they need it.
 
 * Resources
 
@@ -176,3 +202,4 @@ Don't disable zoom on your website so your users can make the text as big or sma
 - [[https://wave.webaim.org][WebAIm Accessibility checker]]
 - [[https://webaim.org/resources/contrastchecker/][WebAIm Contrast checker]]
 - [[https://www.udemy.com/course/web-content-accessibility-guidelines-wcag-21-simplified/][(Udemy course) WCAG 2.1 / 2.2 Simplified With Examples by Stefany Newman]]
+- [[https://webaim.org/projects/screenreadersurvey9/][WebAIM Screen Reader User Survey 9 results]]

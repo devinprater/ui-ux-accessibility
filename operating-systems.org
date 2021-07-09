@@ -1,8 +1,9 @@
 #+title: Operating System Accessibility
 
-An operating system, here, is the low-level programs, toolkits,
-utilities, and libraries that a user may not interact with directly,
-but which facilitates interaction with a desktop environment.
+An operating system, here, is made up of the low-level programs,
+toolkits, utilities, and libraries that a user may not interact with
+directly, but which facilitates interaction with a desktop
+environment.
 
 ** Prime Directive
 
@@ -29,7 +30,7 @@ operating system will not be used by blind people if they must switch
 to it from another. All messages about installation progress must be
 spoken, and widgets must be labeled.
 
-If ths user must enable the screen reader during install or
+If the user must enable the screen reader during install or
 beforehand, the steps to do so must be simple, able to be performed
 with the keyboard, and documented in an easily-accessible location.
 
@@ -53,9 +54,7 @@ Windows and ChromeOS, however, support using the screen reader with a
 touchscreen.
 
 Since a blind person cannot see the screen, output is provided by a
-[[https://en.wikipedia.org/wiki/Screen_reader][Screen reader]], which
-speaks using a software or hardware
-[[https://en.wikipedia.org/wiki/Speech_synthesis][speech
+[[https://en.wikipedia.org/wiki/Screen_reader][Screen reader]], which speaks using a software or hardware [[https://en.wikipedia.org/wiki/Speech_synthesis][speech
 synthesizer]]. Sound effects also help the blind user by giving cues
 that are often much faster, and more distinct, than speech. These
 sound effects, called audio icons or earcons, can be used to signify a
@@ -83,6 +82,13 @@ character, to another at the user's request. The engine must provide a
 speech queue, so that messages can be read sequentially, such as in
 terminal output.
 
+For good flexibility, the speech engine must allow the controlling
+application, like a screen reader, to change its pitch, volume, and
+speaking rate. For even better flexibility, and possibility for spoken
+syntax highlighting, the speech engine should allow the modification
+of the speech intonation, head size, roughness, and other speech
+characteristics.
+
 *** Speech Input
 
 It can be tempting to believe that speech input is perfect for blind
@@ -94,9 +100,9 @@ typing on a glass screen, unsurprisingly. Blind people overwhelmingly
 use Siri and Dictation to get things done.
 
 On a computer, however, this isn't necessary for most. Many blind
-people are taught [[https://en.wikipedia.org/wiki/Touch_typing][touch
-typing]], so they know where the keys are. Speech input should still
-be provided for users who are just beginning to learn to type.
+people are taught [[https://en.wikipedia.org/wiki/Touch_typing][touch typing]], so they know where the keys are.
+Speech input should still be provided for users who are just beginning
+to learn to type, or who prefer dictation.
 
 *** Sounds and Latency
 
@@ -104,10 +110,8 @@ Sound support must, at least, support two channels of output at 16-bit
 quality, with a latency of 40 milliseconds or lower. Sounds must also
 be able to play simultaneously, so that speech and sounds can play at
 the same time. At most, surround sound and virtual surround sound,
-through
-[[https://en.wikipedia.org/wiki/Head-related_transfer_function][HRTF]],
-provides a great experience, while latency should be as low as
-possible, to provide a fast, snappy-feeling experience.
+through [[https://en.wikipedia.org/wiki/Head-related_transfer_function][HRTF]], provides a great experience, while latency should be as
+low as possible, to provide a fast, snappy-feeling experience.
 
 *** Labels, Roles, and States
 
