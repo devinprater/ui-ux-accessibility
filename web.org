@@ -62,14 +62,15 @@ to the screen reader.
 
 Placeholders should never replace labels in forms.
 
-*** Don't Use ARIA
+*** Try not to use ARIA
 
 You may have heard of ARIA, which allows a web developer to control a
 lot of what a screen reader says and does on a site. However,
 configuring ARIA can be brittle and painful, requiring a lot of manual
 intervention when something breaks.  It is much easier to instead use
 simple, pure HTML, which screen readers and browsers are already good
-at understanding.
+at understanding. If you have to use ARIA, be sure to have users test
+your site to see if they can use the functions built with ARIA.
 
 *** Label Images
 
@@ -203,3 +204,4 @@ big or small as they need it.
 - [[https://webaim.org/resources/contrastchecker/][WebAIm Contrast checker]]
 - [[https://www.udemy.com/course/web-content-accessibility-guidelines-wcag-21-simplified/][(Udemy course) WCAG 2.1 / 2.2 Simplified With Examples by Stefany Newman]]
 - [[https://webaim.org/projects/screenreadersurvey9/][WebAIM Screen Reader User Survey 9 results]]
+- [[https://www.deque.com/blog/top-5-rules-of-aria/][Top Five Rules of ARIA]]
