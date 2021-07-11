@@ -8,7 +8,7 @@ experience.
 
 * Contents
 
-- [[./bios.org][BIOS and UEFI]]
+- [[./uefi.org][UEFI Systems]]
 - [[./operating-systems.org][Operating Systems]]
 - [[./desktop-environments.org][Desktop Environments]]
 - [[./applications.org][Applications]]

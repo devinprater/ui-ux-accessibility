@@ -1,0 +1,36 @@
+#+title: UEFI
+
+BIOS and UEFI are the lowest-level parts of software on the computer,
+the firmware that handles CPU features and operating system boot. Even
+this is almost always inaccessible. Nothing can be done for BIOS
+systems, but UEFI should be extended to provide sound, and thus
+blind-accessibility, functions.
+
+** Prime Directive
+
+The prime directive is to communicate with users. The user will
+generally know what they would like rather than what wouldn't help or
+even hinder their experience. Some users may have different ideas of
+what is "accessible" versus other users. In cases like this, you'll
+either need to choose between the two ideas, or give the users a
+choice between the two (preferable). When it comes to accessibility,
+choice is never a bad thing. Your users will thank you for giving them
+something that makes their own experience enjoyable, productive, or
+both.
+
+** Totally Blind Users
+
+This section will concern users who have either only light perception
+or cannot see anything at all. People who have limited vision will be
+addressed in another section.
+
+*** Input and Output
+
+All input must be able to be performed on the keyboard. Output must be
+optionally spoken if a pair of headphones are inserted, or using
+another documented and easily found method. If a braille device is
+connected, output must be sent to that device. Braille support will
+depend on the Braille HID standard being adopted by more braille
+device vendors. There may be further work needed to bring braille to UEFI.
+
+* Resources
